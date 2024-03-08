@@ -1,0 +1,29 @@
+
+lecture 7 --> ass 6.0
+lecture 7 --> ass 10.0
+lecture 8 --> ass 5.0
+lecture 11 --> ass 6.0
+lecture 11 --> ass 5 .0
+WAP to print first n prime number
+lecture 12 --> 10.0
+lecture 13 --> 1.2
+lecture 13 --> 3.1
+lecture 14 --> 12.0
+lecture 14 --> 13.0
+lecture 18 --> 4.2
+lecture 18 --> 8.0
+lecture 18 --> 9.0
+lecture 18 --> ass 3
+lecture 19 --> ass 2
+lecture 22 --> ass 4! must
+lecture 23 --> 1.0 wtf u could do it
+
+
+
+
+
+First ATTEMP CLEAR::
+Lecture 6 --> 5.3
+lecture 18 --> 1.0
+
+lecture 18 --> 5.1

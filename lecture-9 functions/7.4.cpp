@@ -1,0 +1,11 @@
+//  cant reassign the values of Y
+#include <iostream>
+using namespace std;
+
+void fun(int x=4, int y=8){ 
+    cout<<x<<" "<<y;
+}
+
+int main(){
+    fun( , 5); // error
+}

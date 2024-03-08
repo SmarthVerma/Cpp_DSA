@@ -1,0 +1,2 @@
+You sending balance[0] which is value to arr[] 
+therefore error
