@@ -1,21 +1,25 @@
-#include<iostream>
-#include<cstring>
+#include <iostream>
+
 using namespace std;
-int main() {
-char arr[][20] = {"physicswallah", "quiz", "practice", "pwskills","coding" };
-int n = sizeof(arr) / sizeof(arr[0]);
-char temp[20];
-for (int i = 0; i < n ; i++) {
-for (int j = 0; j < n - 1 - i; j++) {
-if (strcmp(arr[j], arr[j + 1]) > 0) {
-strcpy(temp, arr[j]);
-strcpy(arr[j], arr[j + 1]);
-strcpy(arr[j + 1], temp);
+
+int check(int n, int m){
+    if(n==1 && m==1) return 1;
+    if(n==0 || m==0) return 0;
+    int ans=check(n-1,m);
+    int ans2=check(n,m-1);
+    return ans2+ans;
 }
+int check2(int n){
+    int ans=check2(n-1);
+    if(n>0) return 1;
+    return ans;
+    
 }
-}
-for (int i = 0; i < n; i++) {
-cout<<arr[i]<<endl;
-}
-return 0;
+
+int main(){
+
+cout<<check(3,3)<<endl;
+cout<<check2(4)<<endl;
+
+
 }
