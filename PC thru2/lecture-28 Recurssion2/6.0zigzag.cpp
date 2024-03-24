@@ -15,8 +15,5 @@ int main(){
     cout<<"Enter the number: ";
     int n;
     cin>>n;
-
     pip(n);
-
-
 }

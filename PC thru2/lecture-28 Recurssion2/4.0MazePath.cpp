@@ -29,7 +29,7 @@ using namespace std;
         int downways=maze2(x,y-1);
 
         int totalways=rightways+downways;
-        return downways;
+        return rightways;
     }
 
     int main(){

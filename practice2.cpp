@@ -4,8 +4,8 @@ using namespace std;
     int mazeWays(int sx,int sy,int ex,int ey){
         if(sx>ex || sy>ey) return 0;
         if(sx==ex && sy==ey) return 1;
-        int downways=mazeWays(sx,sy+1,ex,ey);
         int rightways=mazeWays(sx+1,sy,ex,ey);
+        int downways=mazeWays(sx,sy+1,ex,ey);
         int totalways= downways + rightways;
         return totalways;
         
