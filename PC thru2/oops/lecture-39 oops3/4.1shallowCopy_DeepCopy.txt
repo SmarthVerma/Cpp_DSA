@@ -1,0 +1,8 @@
+ShallowCopy= ek copy of constructor hogi
+                copy constructor memory will link to orignal memory
+                aur jab orignal memory me values change hogi toh copied mai bhi change hogi
+
+DeepCopy=> ek copy of constructor hogi pr usme memory different allocate hogi
+            after allocating the memory, values from orignal will be copied over copy's memory
+
+            if orignal me values change hogi toh wo reflect nhi hogi copied me

@@ -1,0 +1,4 @@
+Static members
+
+The static keyword is used with a variable to make the memory of the variable static once a static variable is declared
+its memory can't be changed
